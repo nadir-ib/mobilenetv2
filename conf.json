@@ -1,0 +1,18 @@
+{
+    "weights"         : "imagenet",
+  
+    "train_path"      : "/home/nadir/liveness/mobilenet-v2-custom-dataset/data/train",
+    "test_path"       : "/home/nadir/liveness/mobilenet-v2-custom-dataset/data/test",
+    "logs_data"       : "/home/nadir/liveness/mobilenet-v2-custom-datase",
+    "model_path"      : "/home/nadir/liveness/mobilenet-v2-custom-dataset",
+
+    "classes"         : 36,
+    "validation_split": 0.1,
+    "batch_size"      : 64,
+    "epochs"          : 50,
+    "epochs_after_unfreeze" : 5,
+    "data_augmentation" : false,
+
+    "checkpoint_period" : 10,
+    "checkpoint_period_after_unfreeze": 1
+  }
