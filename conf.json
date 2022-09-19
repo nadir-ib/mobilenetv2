@@ -1,15 +1,15 @@
 {
     "weights"         : "imagenet",
   
-    "train_path"      : "/home/nadir/liveness/mobilenet-v2-custom-dataset/data/train",
-    "test_path"       : "/home/nadir/liveness/mobilenet-v2-custom-dataset/data/test",
-    "logs_data"       : "/home/nadir/liveness/mobilenet-v2-custom-datase",
-    "model_path"      : "/home/nadir/liveness/mobilenet-v2-custom-dataset",
+    "train_path"      : "/home/demo/nadir/mobilenetv2/data/train",
+    "test_path"       : "/home/demo/nadir/mobilenetv2/data/test",
+    "logs_data"       : "/home/demo/nadir/mobilenetv2",
+    "model_path"      : "/home/demo/nadir/mobilenetv2",
 
     "classes"         : 36,
     "validation_split": 0.1,
     "batch_size"      : 64,
-    "epochs"          : 50,
+    "epochs"          : 5,
     "epochs_after_unfreeze" : 5,
     "data_augmentation" : false,
 
